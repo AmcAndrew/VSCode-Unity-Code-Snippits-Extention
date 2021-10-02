@@ -1,0 +1,115 @@
+{
+    "For Loop Template" : {
+        "prefix" : "!forLoop",
+        "body" : [
+            "for(int i = 0; i < [Num/Var]; i++){",
+            "",
+            "}"
+        ],
+    },
+
+    "transform": {
+        "prefix": "transform",
+        "body": [
+            "transform",
+        ],
+    },
+
+    "transform.position" : {
+        "prefix": "transform.",
+        "body": [
+            "transform.",
+        ],
+    },
+
+    "position" : {
+        "prefix": "position",
+        "body": [
+            "position",
+        ],
+    },
+
+    "position.x" : {
+        "prefix": "position.x",
+        "body": [
+            "position.x",
+        ],
+    },
+
+    "position.y" : {
+        "prefix": "position.y",
+        "body": [
+            "position.y",
+        ],
+    },
+
+    "position.z" : {
+        "prefix": "position.z",
+        "body": [
+            "position.z",
+        ],
+    },
+
+    "UnityEngine.SceneManagement" : {
+        "prefix": "UnityEngine.SceneManagement",
+        "body": [
+            "UnityEngine.SceneManagement",
+        ],
+    },
+
+    "SceneManager" : {
+        "prefix": "SceneManager",
+        "body": [
+            "SceneManager",
+        ],
+    },
+
+    "SceneManager.LoadScene()" : {
+        "prefix": "SceneManager.LoadScene()",
+        "body": [
+            "SceneManager.LoadScene()",
+        ],
+    },
+
+    "Input" : {
+        "prefix": "Input",
+        "body": [
+            "Input",
+        ],
+    },
+
+    "GetAxis()" : {
+        "prefix": "Input",
+        "body": [
+            "Input",
+        ],
+    },
+
+    "Input.GetAxis()" : {
+        "prefix": "Input.GetAxis()",
+        "body": [
+            "Input.GetAxis()",
+        ],
+    },
+
+    "Input.GetAxis(\"Horizontal\")" : {
+        "prefix": "Input.GetAxis(\"Horizontal\")",
+        "body": [
+            "Input.GetAxis(\"Horizontal\")",
+        ],
+    },
+
+    "Input.GetAxis(\"Vertical\")" : {
+        "prefix": "Input.GetAxis(\"Vertical\")",
+        "body": [
+            "Input.GetAxis(\"Vertical\")",
+        ],
+    },
+
+    //"" : {
+        //"prefix": "",
+        //"body": [
+            //"",
+        //],
+    //},
+}
