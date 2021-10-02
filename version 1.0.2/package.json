@@ -2,7 +2,7 @@
     "name": "Unity C# Code Snippits",
     "displayName": "Unity C# Code Snippits",
     "description": "Made by Andrew Cromar.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.60.0"
