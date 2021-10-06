@@ -1,0 +1,21 @@
+{
+    "name": "Unity C# Code Snippits",
+    "displayName": "Unity C# Code Snippits",
+    "description": "Made by Andrew Cromar.",
+    "version": "1.0.4",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "csharp",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

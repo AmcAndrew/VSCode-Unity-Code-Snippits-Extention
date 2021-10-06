@@ -1,0 +1,490 @@
+{   
+    "starter template" : {
+        "prefix" : "MonoBehaviour",
+        "body" : [
+            "using System.Collections;",
+            "using System.Collections.Generic;",
+            "Using UnityEngine;",
+            "",
+            "public class [script name] : MonoBehaviour{",
+            "    void Start(){",
+            "",
+            "    }",
+            "",
+            "    void Update(){",
+            "",
+            "    }",
+            "}",
+        ],
+    },
+    
+    "for loop template" : {
+        "prefix" : "for loop",
+        "body" : [
+            "for(int i = 0; i < [Num/Var]; i++){",
+            "",
+            "}"
+        ],
+    },
+
+    "transform": {
+        "prefix": "transform",
+        "body": [
+            "transform",
+        ],
+    },
+
+    "transform.position" : {
+        "prefix": "transform.position",
+        "body": [
+            "transform.position",
+        ],
+    },
+
+    "transform.rotation" : {
+        "prefix": "transform.rotation",
+        "body": [
+            "transform.rotation",
+        ],
+    },
+
+    "rotation" : {
+        "prefix": "rotation",
+        "body": [
+            "rotation",
+        ],
+    },
+
+    "rotation.x" : {
+        "prefix": "rotation.x",
+        "body": [
+            "rotation.x",
+        ],
+    },
+
+    "rotation.y" : {
+        "prefix": "rotation.y",
+        "body": [
+            "rotation.y",
+        ],
+    },
+
+    "rotation.z" : {
+        "prefix": "rotation.z",
+        "body": [
+            "rotation.z",
+        ],
+    },
+
+    "position" : {
+        "prefix": "position",
+        "body": [
+            "position",
+        ],
+    },
+
+    "position.x" : {
+        "prefix": "position.x",
+        "body": [
+            "position.x",
+        ],
+    },
+
+    "position.y" : {
+        "prefix": "position.y",
+        "body": [
+            "position.y",
+        ],
+    },
+
+    "position.z" : {
+        "prefix": "position.z",
+        "body": [
+            "position.z",
+        ],
+    },
+
+    "UnityEngine.SceneManagement" : {
+        "prefix": "UnityEngine.SceneManagement",
+        "body": [
+            "UnityEngine.SceneManagement",
+        ],
+    },
+
+    "SceneManager" : {
+        "prefix": "SceneManager",
+        "body": [
+            "SceneManager",
+        ],
+    },
+
+    "LoadScene()" : {
+        "prefix": "LoadScene()",
+        "body": [
+            "LoadScene()",
+        ],
+    },
+
+    "GetActiveScene()" : {
+        "prefix": "GetActiveScene()",
+        "body": [
+            "GetActiveScene()",
+        ],
+    },
+
+    "GetActiveScene().buildIndex" : {
+        "prefix": "GetActiveScene().buildIndex",
+        "body": [
+            "GetActiveScene().buildIndex",
+        ],
+    },
+
+    "buildIndex" : {
+        "prefix": "buildIndex",
+        "body": [
+            "buildIndex",
+        ],
+    },
+
+    "Input" : {
+        "prefix": "Input",
+        "body": [
+            "Input",
+        ],
+    },
+
+    "GetAxis()" : {
+        "prefix": "Input",
+        "body": [
+            "Input",
+        ],
+    },
+
+    "Input.GetAxis()" : {
+        "prefix": "Input.GetAxis()",
+        "body": [
+            "Input.GetAxis()",
+        ],
+    },
+
+    "Input.GetAxis(\"Horizontal\")" : {
+        "prefix": "Input.GetAxis(\"Horizontal\")",
+        "body": [
+            "Input.GetAxis(\"Horizontal\")",
+        ],
+    },
+
+    "Input.GetAxis(\"Vertical\")" : {
+        "prefix": "Input.GetAxis(\"Vertical\")",
+        "body": [
+            "Input.GetAxis(\"Vertical\")",
+        ],
+    },
+
+    "voidStart" : {
+        "prefix": "Void Start",
+        "body": [
+            "Void Start(){",
+            "",
+            "}",
+        ],
+    },
+
+    "voidUpdate" : {
+        "prefix": "Void Update",
+        "body": [
+            "Void Update(){",
+            "",
+            "}",
+        ],
+    },
+
+    "voidFixedUpdate" : {
+        "prefix": "Void FixedUpdate",
+        "body": [
+            "Void FixedUpdate(){",
+            "",
+            "}",
+        ],
+    },
+
+    "gameobject" : {
+        "prefix": "GameObject",
+        "body": [
+            "GameObject"
+        ],
+    },
+
+    "RigidBody" : {
+        "prefix": "RigidBody",
+        "body": [
+            "RigidBody"
+        ],
+    },
+
+    "string" : {
+        "prefix": "string",
+        "body": [
+            "string"
+        ],
+    },
+
+    "int" : {
+        "prefix": "int",
+        "body": [
+            "int"
+        ],
+    },
+
+    "private" : {
+        "prefix": "private",
+        "body": [
+            "private"
+        ],
+    },
+
+    "public" : {
+        "prefix": "public",
+        "body": [
+            "public"
+        ],
+    }, 
+
+    "Sqrt()" : {
+        "prefix": "Sqrt()",
+        "body": [
+            "Sqrt()"
+        ],
+    }, 
+
+    "GetButtonDown()" : {
+        "prefix": "GetButtonDown()",
+        "body": [
+            "GetButtonDown()",
+        ],
+    },
+
+    "None" : {
+        "prefix": "None",
+        "body": [
+            "None",
+        ],
+    },
+
+    "Locked" : {
+        "prefix": "Locked",
+        "body": [
+            "Locked",
+        ],
+    },
+
+    "CursorLockMode" : {
+        "prefix": "CursorLockMode",
+        "body": [
+            "CursorLockMode",
+        ],
+    },
+
+    "lockState" : {
+        "prefix": "lockState",
+        "body": [
+            "lockState",
+        ],
+    },
+
+    "Cursor" : {
+        "prefix": "Cursor",
+        "body": [
+            "Cursor",
+        ],
+    },
+
+    "Clamp()" : {
+        "prefix": "Clamp()",
+        "body": [
+            "Clamp()",
+        ],
+    },
+
+    "Mathf" : {
+        "prefix": "Mathf",
+        "body": [
+            "Mathf",
+        ],
+    },
+
+    "Euler()" : {
+        "prefix": "Euler()",
+        "body": [
+            "Euler()",
+        ],
+    },
+
+    "Quaternion" : {
+        "prefix": "Quaternion",
+        "body": [
+            "Quaternion",
+        ],
+    },
+
+    "localRotation" : {
+        "prefix": "localRotation",
+        "body": [
+            "localRotation",
+        ],
+    },
+
+    "Rotate" : {
+        "prefix": "Rotate",
+        "body": [
+            "Rotate",
+        ],
+    },
+
+    "GetAxis(\"Mouse X\")" : {
+        "prefix": "GetAxis(\"Mouse X\")",
+        "body": [
+            "GetAxis(\"Mouse X\")",
+        ],
+    },
+
+    "GetAxis(\"Mouse Y\")" : {
+        "prefix": "GetAxis(\"Mouse Y\")",
+        "body": [
+            "GetAxis(\"Mouse Y\")",
+        ],
+    },
+
+    "Move" : {
+        "prefix": "Move",
+        "body": [
+            "Move",
+        ],
+    },
+
+    "deltaTime" : {
+        "prefix": "deltaTime",
+        "body": [
+            "deltaTime",
+        ],
+    },
+
+    "Time" : {
+        "prefix": "Time",
+        "body": [
+            "Time",
+        ],
+    },
+
+    "backward" : {
+        "prefix": "backward",
+        "body": [
+            "backward",
+        ],
+    },
+
+    "forward" : {
+        "prefix": "forward",
+        "body": [
+            "forward",
+        ],
+    },
+
+    "left" : {
+        "prefix": "left",
+        "body": [
+            "left",
+        ],
+    },
+
+    "right" : {
+        "prefix": "right",
+        "body": [
+            "right",
+        ],
+    },
+
+    "up" : {
+        "prefix": "up",
+        "body": [
+            "up",
+        ],
+    },
+
+    "down" : {
+        "prefix": "down",
+        "body": [
+            "down",
+        ],
+    },
+
+    "Vector2" : {
+        "prefix": "Vector2",
+        "body": [
+            "Vector2",
+        ],
+    },
+
+    "Vector3" : {
+        "prefix": "Vector3",
+        "body": [
+            "Vector3",
+        ],
+    },
+
+    "float" : {
+        "prefix": "float",
+        "body": [
+            "float",
+        ],
+    },
+
+    "Transform" : {
+        "prefix": "Transform",
+        "body": [
+            "Transform",
+        ],
+    },
+
+    "LayerMask" : {
+        "prefix": "LayerMask",
+        "body": [
+            "LayerMask",
+        ],
+    },
+
+    "CharacterController" : {
+        "prefix": "CharacterController",
+        "body": [
+            "CharacterController",
+        ],
+    },
+
+    "bool" : {
+        "prefix": "bool",
+        "body": [
+            "bool",
+        ],
+    },
+
+    "checkSphere()" : {
+        "prefix": "checkSphere()",
+        "body": [
+            "checkSphere()",
+        ],
+    },
+
+    "physics" : {
+        "prefix": "physics",
+        "body": [
+            "physics",
+        ],
+    },
+
+    //"" : {
+        //"prefix": "",
+        //"body": [
+            //"",
+        //],
+    //},
+}
